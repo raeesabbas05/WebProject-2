@@ -1,0 +1,20 @@
+@import "./reset.css";
+@import "./variables.css";
+
+html {
+  font-family: var(--font-family), sans-serif;
+  color: var(--color-text);
+}
+
+@media (max-width: 768px) {
+  :root {
+    --container-max-width: 100%;
+    --side-padding: 32px;
+  }
+}
+
+@media (max-width: 576px) {
+  :root {
+    --side-padding: 16px;
+  }
+}

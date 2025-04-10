@@ -1,0 +1,61 @@
+:root {
+  --font-semibold: 600;
+  --font-medium: 500;
+  --font-normal: 400;
+
+  --color-dark: hsl(224, 71%, 4%);
+  --color-dark-900: hsl(0, 0%, 9%);
+
+  --color-danger: hsl(0, 72%, 51%);
+  --color-danger-100: hsl(0, 74%, 42%);
+  --color-danger-200: hsl(6, 74%, 46%);
+  --color-danger-300: hsl(0, 94%, 82%);
+
+  --color-text: hsl(0, 0%, 32%);
+  --color-text-50: hsl(0, 0%, 98%);
+  --color-text-100: hsl(0, 0%, 96%);
+  --color-text-200: hsl(0, 0%, 90%);
+  --color-text-300: hsl(0, 0%, 83%);
+  --color-text-400: hsl(0, 0%, 64%);
+  --color-text-500: hsl(0, 0%, 45%);
+  --color-text-700: hsl(0, 0%, 25%);
+  --color-text-900: hsl(0, 0%, 9%);
+
+  --color-base: hsl(0, 0%, 100%);
+  --color-base-50: hsl(0, 0%, 98%);
+  --color-base-200: hsl(0, 0%, 90%);
+
+  --color-primary: hsl(245, 58%, 51%);
+  --color-primary-light: hsl(244, 55%, 41%);
+
+  --color-disabled: hsl(0, 0%, 96%);
+  --color-text-disabled: hsl(0, 0%, 64%);
+
+  /* badges */
+  --bg-neutral-badge: hsl(210, 20%, 98%);
+  --border-neutral-badge: var(--color-text-200);
+  --color-text-neutral-badge: var(--color-text);
+
+  --bg-danger-badge: hsl(0, 86%, 97%);
+  --border-danger-badge: hsl(0, 96%, 89%);
+  --color-text-danger-badge: var(--color-danger);
+
+  --bg-warning-badge: hsl(48, 86%, 97%);
+  --border-warning-badge: hsl(48, 97%, 77%);
+  --color-text-warning-badge: hsl(26, 90%, 37%);
+
+  --bg-success-badge: hsl(138, 76%, 97%);
+  --border-success-badge: hsl(141, 79%, 85%);
+  --color-text-success-badge: hsl(142, 72%, 29%);
+
+  --bg-brand-badge: hsl(226, 100%, 97%);
+  --border-brand-badge: hsl(228, 96%, 89%);
+  --color-text-brand-badge: var(--color-primary);
+  /* badges */
+
+  --color-gradient-page: linear-gradient(148deg, #f9fafb 8.89%, #d2d6db 100.48%);
+  --box-shadow-focus: hsla(237.06, 77.25%, 58.63%, 0.12);
+
+  --container-max-width: 1280px;
+  --side-padding: 32px;
+}
